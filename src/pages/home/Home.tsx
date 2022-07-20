@@ -52,7 +52,7 @@ export function Home() {
           id: 6,
           name: "NET BALL",
           price: 1000,
-          description: "A somewhat different Poké Ball that is more effective when attempting to catch Water- or Bug-type Pokémon.",
+          description: "A somewhat different Poké Ball that is more effective when attempting to catch Water-type or Bug-type Pokémon.",
           image: "./images/netball.png"
         },
         {
