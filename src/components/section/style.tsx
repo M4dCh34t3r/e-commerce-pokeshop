@@ -1,6 +1,22 @@
 
 import styled from "styled-components";
 
+export const Tooltip = styled('div')`
+  opacity: 0%;
+  width: 20rem;
+  color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20rem;
+  background-color: #60c0ef;
+  transition: all 1s ease-in-out;
+
+  &:hover {
+    opacity: 100%;
+  }
+`
+
 export const Card = styled('li')`
   width: 14rem;
   margin: 2rem;
@@ -10,33 +26,41 @@ export const Card = styled('li')`
   border-radius: 10px;
   align-items: center;
   flex-direction: column;
-  transition: all 0.5s ease;
   background-color: #f9f9f9;
+  transition: all 1s ease-out;
   justify-content: space-around;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
 `;
 
-export const CardButton = styled('a')`
+export const CardButton = styled('button')`
+  border: none;
   height: 2rem;
   min-width: 10rem;
   color: #ffffff;
   font-weight: bold;
-  line-height: 2rem;
-  text-align: center;
   border-radius: 5px;
-  text-decoration: none;
-  transition: all 0.5s ease;
+  transition: all 0.25s ease;
   background-color: #60c0ef;
-`;
 
-export const CardDescription = styled('p')`
-  letter-spacing: 1px;
-  align-items: center;
-  word-break: break-word;
+  &:hover {
+    background-color: #268cbf;
+  }
 `;
 
 export const CardImage = styled('img')`
   width: 6rem;
   height: 6rem;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    width: 8rem;
+    height: 8rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+  }
 `;
 
 export const CardInfo = styled('div')`
@@ -50,7 +74,7 @@ export const CardName = styled('h2')`
 `;
 
 export const CardPrice = styled('h3')`
-  height: 1rem;
+  height: 2rem;
 `;
 
 export const SectionName = styled('h1')`
