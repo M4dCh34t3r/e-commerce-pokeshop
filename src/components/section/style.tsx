@@ -86,7 +86,7 @@ export const SectionName = styled('h1')`
   font-weight: bold;
   border-radius: 5px;
   text-align: center;
-  background-color: #60c0ef;
+  background-color: #f2b542;
 `;
 
 export const Wrapper = styled('div')`
