@@ -24,10 +24,13 @@ export const Anchor = styled('a')`
 `;
 
 export const Container = styled('div')`
-  margin: 1rem;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   height: 10rem;
-  border-radius: 5px;
+  z-index: 1000;
+  position: fixed;
   align-items: center;
   background-color: #60c0ef;
   justify-content: space-around;

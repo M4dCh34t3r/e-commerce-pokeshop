@@ -1,6 +1,6 @@
 import { Anchor, Container, Logo } from "./style";
 
-export default function Header() {
+export default function Navbar() {
   return(
     <Container>
       <Anchor href='/'>HOME</Anchor>
