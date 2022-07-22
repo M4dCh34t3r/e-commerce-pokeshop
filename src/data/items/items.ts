@@ -720,7 +720,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 78,
+    id: 79,
     name: "MUSCLE BAND",
     price: 200,
     description: "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of physical moves.",
@@ -729,7 +729,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 79,
+    id: 80,
     name: "POWER ANKLET",
     price: 3000,
     description: "An item to be held by a Pokémon. It reduces Speed but allows the holder's Speed stat to grow more after battling.",
@@ -738,7 +738,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 80,
+    id: 81,
     name: "POWER BAND",
     price: 3000,
     description: "An item to be held by a Pokémon. It reduces Speed but allows the holder's Sp. Def stat to grow more after battling.",
@@ -747,7 +747,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 81,
+    id: 82,
     name: "POWER BELT",
     price: 3000,
     description: "An item to be held by a Pokémon. It reduces Speed but allows the holder's Defense stat to grow more after battling.",
@@ -756,7 +756,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 82,
+    id: 83,
     name: "POWER BRACER",
     price: 3000,
     description: "An item to be held by a Pokémon. It reduces Speed but allows the holder's Attack stat to grow more after battling.",
@@ -765,7 +765,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 83,
+    id: 84,
     name: "POWER HERB",
     price: 100,
     description: "A single-use item to be held by a Pokémon. It allows the holder to immediately use a move that normally requires a turn to charge.",
@@ -774,7 +774,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 83,
+    id: 85,
     name: "POWER LENS",
     price: 3000,
     description: "An item to be held by a Pokémon. It reduces Speed but allows the holder's Sp. Atk stat to grow more after battling.",
@@ -783,7 +783,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 84,
+    id: 86,
     name: "POWER WEIGHT",
     price: 3000,
     description: 	"An item to be held by a Pokémon. It reduces Speed but allows the holder's maximum HP to grow more after battling.",
@@ -792,16 +792,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 15,
-    name: "PROTECTOR",
-    price: 2100,
-    description: "A protective item of some sort. It is extremely stiff and heavy. It's loved by a certain Pokémon.",
-    image: "./images/protector.png",
-    category: ItemCategory.Hold,
-    subcategory: null
-  },
-  {
-    id: 85,
+    id: 87,
     name: "PURE INCENSE",
     price: 9600,
     description: "An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.",
@@ -810,7 +801,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 86,
+    id: 88,
     name: "RING TARGET",
     price: 100,
     description: "An item to be held by a Pokémon. Moves that normally have no effect will land on a Pokémon holding it.",
@@ -819,7 +810,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 87,
+    id: 89,
     name: "ROCK INCENSE",
     price: 9600,
     description: "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.",
@@ -828,7 +819,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 88,
+    id: 90,
     name: "ROSE INCENSE",
     price: 9600,
     description: "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.",
@@ -837,7 +828,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 89,
+    id: 91,
     name: "SAFETY GOGGLES",
     price: 1000,
     description: "An item to be held by a Pokémon. These goggles protect the holder from both weather-related damage and powder.",
@@ -846,7 +837,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 90,
+    id: 92,
     name: "SCOPE LENS",
     price: 200,
     description: "An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
@@ -855,7 +846,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 91,
+    id: 93,
     name: "SEA INCENSE",
     price: 1000,
     description: "An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of Water-type moves.",
@@ -864,7 +855,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 92,
+    id: 94,
     name: "SNOW BALL",
     price: 200,
     description: "An item to be held by a Pokémon. It boosts Attack if hit with an Ice-type attack. It can only be used once.",
@@ -873,7 +864,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 93,
+    id: 95,
     name: "TOXIC ORB",
     price: 100,
     description: "An item to be held by a Pokémon. It is a bizarre orb that will badly poison the holder during battle.",
@@ -882,7 +873,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 94,
+    id: 96,
     name: "WAVE INCENSE",
     price: 9600,
     description: "An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Water-type moves.",
@@ -891,7 +882,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 95,
+    id: 97,
     name: "WEAKNESS POLICY",
     price: 1000,
     description: "An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
@@ -900,7 +891,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 96,
+    id: 98,
     name: "WHITE HERB",
     price: 100,
     description: "An item to be held by a Pokémon. It will restore any lowered stat in battle. It can be used only once.",
@@ -909,7 +900,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 98,
+    id: 99,
     name: "WIDE LENS",
     price: 200,
     description: "An item to be held by a Pokémon. It's a magnifying lens that slightly boosts the accuracy of moves.",
@@ -918,7 +909,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 99,
+    id: 100,
     name: "WISE GLASSES",
     price: 200,
     description: "An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of special moves.",
@@ -927,7 +918,7 @@ export const itemList = [
     subcategory: null
   },
   {
-    id: 99,
+    id: 101,
     name: "ZOOM LENS",
     price: 200,
     description: "An item to be held by a Pokémon. If the holder moves after its target moves, its accuracy will be boosted.",
