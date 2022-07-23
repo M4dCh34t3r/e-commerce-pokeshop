@@ -9,7 +9,7 @@ export const Tooltip = styled('div')`
   position: absolute;
   text-align: center;
   margin-bottom: 20rem;
-  background-color: #60c0ef;
+  background-color: #eb2848;
   transition: all 1s ease-in-out;
 
   &:hover {
