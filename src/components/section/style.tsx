@@ -18,7 +18,7 @@ export const Tooltip = styled('div')`
 `
 
 export const Card = styled('li')`
-  width: 14rem;
+  width: 12rem;
   margin: 2rem;
   display: flex;
   height: 16rem;
@@ -71,6 +71,7 @@ export const CardInfo = styled('div')`
 
 export const CardName = styled('h2')`
   height: 1rem;
+  text-align: center;
 `;
 
 export const CardPrice = styled('h3')`
