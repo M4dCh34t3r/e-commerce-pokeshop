@@ -14,8 +14,10 @@ export const NavbarLink = styled(Link)`
   background-color: #ffffff;
   
   @media(max-width: 800px) {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    min-width: 4rem;
+    margin-top: 8rem;
+    font-size: 0.625rem;
+    margin-bottom: 0.25rem;
   }
 
   &:hover {
@@ -31,6 +33,8 @@ export const NavbarLogo = styled('img')`
   @media(max-width: 800px) {
     width: 20rem;
     height: 20rem;
+    margin-bottom: 5rem;
+    position: absolute;
   }
 `;
 
@@ -48,6 +52,5 @@ export const Container = styled('div')`
 
   @media(max-width: 800px) {
     height: 15rem;
-    flex-direction: column;
   }
 `;
