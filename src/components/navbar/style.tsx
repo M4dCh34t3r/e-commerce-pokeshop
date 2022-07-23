@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const Anchor = styled('a')`
+export const NavbarLink = styled(Link)`
   min-width: 8rem;
   min-height: 2rem;
   color: #ffd841;
@@ -23,6 +24,16 @@ export const Anchor = styled('a')`
   }
 `;
 
+export const NavbarLogo = styled('img')`
+  width: 25rem;
+  height: 25rem;
+
+  @media(max-width: 800px) {
+    width: 20rem;
+    height: 20rem;
+  }
+`;
+
 export const Container = styled('div')`
   top: 0;
   left: 0;
@@ -38,15 +49,5 @@ export const Container = styled('div')`
   @media(max-width: 800px) {
     height: 15rem;
     flex-direction: column;
-  }
-`;
-
-export const Logo = styled('img')`
-  width: 25rem;
-  height: 25rem;
-
-  @media(max-width: 800px) {
-    width: 20rem;
-    height: 20rem;
   }
 `;

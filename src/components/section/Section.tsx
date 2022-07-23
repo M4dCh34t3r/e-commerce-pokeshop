@@ -5,6 +5,7 @@ import { ShopItem } from '../../data/@types/shopItem';
 interface SectionProps {
   sectionName: string;
   shopItems: ShopItem[];
+  clickHandler: Function;
 }
 
 export default function Section(props: SectionProps) {
@@ -23,7 +24,7 @@ export default function Section(props: SectionProps) {
             
             <CardPrice> { shopItem.price }₽ </CardPrice>
             
-            <CardButton> Add to cart </CardButton>
+            <CardButton onClick={ () => props.clickHandler(shopItem.id) }> Add to cart </CardButton>
           </Card>
         )) }
       </Wrapper>
