@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "author":"Ash ketchum",
+    "message":"My Poke Balls just arrived and I can't wait to go catch more Pokémon with them!!",
+    "creationDate":"2022-07-25T18:36:08.000Z"
+  },
+  {
+    "id":2,
+    "author":"Wataru Lance",
+    "message":"Buying stuff for my Pokémon without having to leave my house is just GREAT",
+    "creationDate":"2022-07-26T01:30:45.000Z"
+  },
+  {
+    "id":3,
+    "author":"Nurse Joy",
+    "message":"This new modern version of the Poké Mart makes everything easier for us here in the Pokémon Center. Thank u guys!",
+    "creationDate":"2022-07-26T14:31:24.000Z"
+  },
+  {
+    "id":4,
+    "author":"Takeshi Brock",
+    "message":"Every time I order from you it arrives in a matter of minutes! That may be cos I live next to one of the Poké Marts tho",
+    "creationDate":"2022-07-26T17:40:46.000Z"
+  }
+]
