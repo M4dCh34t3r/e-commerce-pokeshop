@@ -1,5 +1,5 @@
 import Section from "../../components/section/Section";
-import storeItems from "../../data/items/items.json";
+import items from "../../data/json/items.json";
 import Cart from "../../components/cart/Cart";
 import { useState } from "react";
 
@@ -12,32 +12,32 @@ export function Home() {
 
       <Section 
       sectionName="POKÉBALLS"
-      shopItems={ storeItems.filter(storeItems => storeItems.category === "pokeball" || storeItems.subcategory ===  "pokeball") }
+      shopItems={ items.filter(items => items.category === "pokeball" || items.subcategory ===  "pokeball") }
       clickHandler={ handleCartClick }/>
 
       <Section 
       sectionName="EVOLUTIONARY  ITEMS"
-      shopItems={ storeItems.filter(storeItems => storeItems.category === "evolutionary" || storeItems.subcategory === "evolutionary") }
+      shopItems={ items.filter(items => items.category === "evolutionary" || items.subcategory === "evolutionary") }
       clickHandler={ handleCartClick }/>
 
       <Section 
       sectionName="MISCELLANEOUS ITEMS"
-      shopItems={ storeItems.filter(storeItems => storeItems.category === "miscellaneous" || storeItems.subcategory === "miscellaneous") }
+      shopItems={ items.filter(items => items.category === "miscellaneous" || items.subcategory === "miscellaneous") }
       clickHandler={ handleCartClick }/>
 
       <Section 
       sectionName="RECOVERY ITEMS"
-      shopItems={ storeItems.filter(storeItems => storeItems.category === "recovery" || storeItems.subcategory === "recovery") }
+      shopItems={ items.filter(items => items.category === "recovery" || items.subcategory === "recovery") }
       clickHandler={ handleCartClick }/>
 
       <Section 
       sectionName="BATTLE EFFECT ITEMS"
-      shopItems={ storeItems.filter(storeItems => storeItems.category === "battlefx" || storeItems.subcategory === "battlefx") }
+      shopItems={ items.filter(items => items.category === "battlefx" || items.subcategory === "battlefx") }
       clickHandler={ handleCartClick }/>
 
       <Section 
       sectionName="HOLD ITEMS"
-      shopItems={ storeItems.filter(storeItems => storeItems.category === "hold" || storeItems.subcategory === "hold") }
+      shopItems={ items.filter(items => items.category === "hold" || items.subcategory === "hold") }
       clickHandler={ handleCartClick }/> 
     </>
   );
