@@ -1,6 +1,5 @@
 import { ClientReview } from '../../data/@types/clientReview';
 import Messages from '../../components/messages/Messages';
-import reviews from "../../data/json/reviews.json";
 import Entry from '../../components/entry/Entry';
 import { useState, useEffect } from 'react';
 
