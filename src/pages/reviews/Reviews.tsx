@@ -5,7 +5,7 @@ import Entry from '../../components/entry/Entry';
 import { useState, useEffect } from 'react';
 
 export function Reviews() {
-  const [content, setContent] = useState<ClientReview[]>([]);
+  const [content, setContent] = useState(Array<ClientReview>);
   const url = 'http://localhost:5000/reviews';
 
   const [authorName, setAuthorName] = useState('');
@@ -22,9 +22,8 @@ export function Reviews() {
           setContent(data);
           return
         }
-      } catch {
-        console.log('Fetching data from "src/data/reviews/reviews.json"');
-        setContent(reviews);
+      } catch(e: any) {
+        console.log(e);
       }
     }
     fetchData();
