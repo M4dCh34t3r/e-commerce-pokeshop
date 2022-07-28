@@ -1,5 +1,5 @@
+import shopItems from "../../data/json/shopItems.json";
 import { ShopItem } from "../../data/@types/shopItem";
-import shopItems from "../../data/json/items.json";
 import { shopItemsId } from "../../App";
 import { useState } from "react";
 
