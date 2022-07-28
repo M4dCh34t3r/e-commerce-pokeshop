@@ -1,7 +1,7 @@
 import Section from "../../components/section/Section";
 import shopItems from "../../data/json/shopItems.json";
 import Cart from "../../components/cart/Cart";
-import { shopItemsId } from "../../App"
+import { shopItemsId } from "../../App";
 import { useState } from "react";
 
 export function Home() {
@@ -10,7 +10,7 @@ export function Home() {
   const handleCartClick = (itemId: number) => {
     if (shopItemsId.length === 9) {
       alert("Your cart is already full of items");
-      return
+      return;
     }
 
     shopItemsId.push(itemId);
