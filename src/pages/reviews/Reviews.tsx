@@ -23,7 +23,7 @@ export function Reviews() {
           return
         }
       } catch {
-        console.log('Fetching data from "src/data/reviews/reviews.json"')
+        console.log('Fetching data from "src/data/reviews/reviews.json"');
         setContent(reviews);
       }
     }
@@ -31,7 +31,6 @@ export function Reviews() {
   });
 
   const sendReview = () => {
-
     if (authorName === '') {
       alert("Please, insert an author name.");
       return;
@@ -53,6 +52,12 @@ export function Reviews() {
           { method: 'POST',
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify(postBody) });
+
+          const authorInput: HTMLInputElement = document.getElementById('name-input') as HTMLInputElement;
+          const messageInput: HTMLInputElement = document.getElementById('message-input') as HTMLInputElement;
+          authorInput.value = '';
+          messageInput.value = '';
+
       } catch(e: any) {
         console.log(e);
       }

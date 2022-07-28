@@ -5,7 +5,6 @@ interface EntryProps {
   messageHandler: Function;
   nameHandler: Function;
 }
-
 export default function Entry(props: EntryProps) {
   return(
     <EntryWrapper>
@@ -13,12 +12,14 @@ export default function Entry(props: EntryProps) {
       
       <NameInput 
         type="text"
+        id="name-input"
         onChange={ (event) => props.nameHandler(event.target.value) } />
       
       <EntryLabel>REVIEW MESSAGE</EntryLabel>
       
       <MessageInput 
         type="text"
+        id="message-input"
         onChange={ (event) => props.messageHandler(event.target.value) } />
       
       <EntryButton onClick={ () => props.clickHandler() }>SEND</EntryButton>
