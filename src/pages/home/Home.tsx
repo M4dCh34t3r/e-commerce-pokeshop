@@ -1,14 +1,26 @@
 import Section from "../../components/section/Section";
+// import { ShopItem } from "../../data/@types/shopItem";
 import items from "../../data/json/items.json";
 import Cart from "../../components/cart/Cart";
+import { shopItemsId } from "../../App"
 import { useState } from "react";
 
 export function Home() {
-  const handleCartClick = () => {}
+  const [cartItemCount, setCartItemCount] = useState(shopItemsId.length);
+
+  const handleCartClick = (itemId: number) => {
+    if (shopItemsId.length === 9) {
+      alert("Your cart is full of items");
+      return
+    }
+
+    shopItemsId.push(itemId);
+    setCartItemCount(shopItemsId.length);
+  }
 
   return(
     <>
-      <Cart cartContent={ 0 }/>
+      <Cart cartContent={ cartItemCount }/>
 
       <Section 
       sectionName="POKÉBALLS"
