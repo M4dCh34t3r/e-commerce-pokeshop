@@ -7,13 +7,14 @@ export const CartIcon = styled('img')`
 `;
 
 export const CartCount = styled('h1')`
+  width: 100%;
   color: #eb2848;
+  margin-left: -5%;
+  margin-top: -4rem;
   font-weight: bold;
   line-height: 2rem;
   position: absolute;
   text-align: center;
-  margin-left: 1.75rem;
-  margin-top: -4rem;
 `;
 
 export const CartLink = styled(Link)`
