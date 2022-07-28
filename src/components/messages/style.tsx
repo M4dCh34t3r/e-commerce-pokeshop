@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+
+export const CardWrapper = styled('div')`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`;
+
 export const MessageAuthor = styled('h1')`
   width: 100%;
   height: 4rem;
@@ -32,10 +39,4 @@ export const MessageDate = styled('h4')`
   line-height: 2rem;
   text-align: center;
   background-color: #f9f9f9;
-`;
-
-export const Wrapper = styled('div')`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 `;

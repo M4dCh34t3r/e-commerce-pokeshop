@@ -35,7 +35,7 @@ export const NavbarLogo = styled('img')`
   }
 `;
 
-export const Container = styled('div')`
+export const NavbarWrapper = styled('div')`
   top: 0;
   left: 0;
   width: 100%;

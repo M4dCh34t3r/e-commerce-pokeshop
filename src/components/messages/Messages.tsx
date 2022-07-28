@@ -1,4 +1,4 @@
-import { MessageAuthor, MessageCard, MessageDate,MessageText, Wrapper } from "./style";
+import { CardWrapper, MessageAuthor, MessageCard, MessageDate,MessageText } from "./style";
 import { ClientReview } from "../../data/@types/clientReview";
 import formatDate from "../../services/utils/formatDate";
 
@@ -9,7 +9,7 @@ interface MessageProps {
 export default function Messages(props: MessageProps) {
   console.log(props.clientReviews[0]);
   return(
-    <Wrapper>
+    <CardWrapper>
       { props.clientReviews.map(clientReview => (  
         <MessageCard key={ clientReview.id }>
           <MessageAuthor>
@@ -23,6 +23,6 @@ export default function Messages(props: MessageProps) {
           </MessageDate>
         </MessageCard>
       )) }
-    </Wrapper>
+    </CardWrapper>
   );
 }

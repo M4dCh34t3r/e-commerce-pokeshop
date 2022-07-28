@@ -1,11 +1,11 @@
-import { Container, NavbarLogo, NavbarLink } from "./style";
+import { NavbarLogo, NavbarLink, NavbarWrapper } from "./style";
 
 export default function Navbar() {
   return(
-    <Container>
+    <NavbarWrapper>
       <NavbarLink to="/">HOME</NavbarLink>
       <NavbarLogo src='./logo.svg' alt='logo'/>
       <NavbarLink to="/reviews">REVIEWS</NavbarLink>
-    </Container>
+    </NavbarWrapper>
   );
 }
