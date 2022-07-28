@@ -1,8 +1,13 @@
 
 export function CartContent() {
   return(
-    <div>
-      abcde
-    </div>
+    <>
+      <h1>
+        CART CONTENT
+      </h1>
+      <h3>
+        bottom text
+      </h3>
+    </>
   );
 }
