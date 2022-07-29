@@ -19,7 +19,7 @@ export function Reviews() {
           console.log("Data successfully fetched from ", url);
           let data = await response.json();
           setContent(data);
-          return
+          return;
         }
       } catch(e: any) {
         console.log(e);
