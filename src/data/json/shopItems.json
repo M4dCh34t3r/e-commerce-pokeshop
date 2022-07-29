@@ -1,6 +1,6 @@
 [
   {
-    "id":0,
+    "id":1,
     "name":"DIVE BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that works especially well when catching Pokémon that live underwater.",
@@ -9,7 +9,7 @@
     "subcategory":""
   },
   {
-    "id":1,
+    "id":2,
     "name":"DUSK BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that makes it easier to catch wild Pokémon at night or in dark places like caves.",
@@ -18,7 +18,7 @@
     "subcategory":""
   },
   {
-    "id":2,
+    "id":3,
     "name":"GREAT BALL",
     "price":600,
     "description":"A good, high-performance Poké Ball that provides a higher Pokémon catch rate than a standard Poké Ball can.",
@@ -27,7 +27,7 @@
     "subcategory":""
   },
   {
-    "id":3,
+    "id":4,
     "name":"HEAL BALL",
     "price":300,
     "description":"A remedial Poké Ball that restores the HP of a Pokémon caught with it and eliminates any status conditions.",
@@ -36,7 +36,7 @@
     "subcategory":""
   },
   {
-    "id":4,
+    "id":5,
     "name":"LUXURY BALL",
     "price":1000,
     "description":"A particularly comfortable Poké Ball that makes a wild Pokémon quickly grow friendlier after being caught.",
@@ -45,7 +45,7 @@
     "subcategory":""
   },
   {
-    "id":5,
+    "id":6,
     "name":"NEST BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that becomes more effective the lower the level of the wild Pokémon.",
@@ -54,7 +54,7 @@
     "subcategory":""
   },
   {
-    "id":6,
+    "id":7,
     "name":"NET BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that is more effective when attempting to catch Water-type or Bug-type Pokémon.",
@@ -63,7 +63,7 @@
     "subcategory":""
   },
   {
-    "id":7,
+    "id":8,
     "name":"POKÉ BALL",
     "price":200,
     "description":"A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.",
@@ -72,7 +72,7 @@
     "subcategory":""
   },
   {
-    "id":8,
+    "id":9,
     "name":"QUICK BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that has a more successful catch rate if used at the start of a wild encounter.",
@@ -81,7 +81,7 @@
     "subcategory":""
   },
   {
-    "id":9,
+    "id":10,
     "name":"REPEAT BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that works especially well on a Pokémon species that has been caught before.",
@@ -90,7 +90,7 @@
     "subcategory":""
   },
   {
-    "id":10,
+    "id":11,
     "name":"TIMER BALL",
     "price":1000,
     "description":"A somewhat different Poké Ball that becomes progressively more effective the more turns that are taken in battle.",
@@ -99,7 +99,7 @@
     "subcategory":""
   },
   {
-    "id":11,
+    "id":12,
     "name":"ULTRA BALL",
     "price":1200,
     "description":"An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball.",
@@ -108,7 +108,7 @@
     "subcategory":""
   },
   {
-    "id":12,
+    "id":13,
     "name":"DUBIOUS DISC",
     "price":2100,
     "description":"A transparent device overflowing with dubious data. Its producer is unknown.",
@@ -117,7 +117,7 @@
     "subcategory":""
   },
   {
-    "id":13,
+    "id":14,
     "name":"ELECTIRIZER",
     "price":2100,
     "description":"A box packed with a tremendous amount of electric energy. It's loved by a certain Pokémon.",
@@ -126,7 +126,7 @@
     "subcategory":"hold"
   },
   {
-    "id":14,
+    "id":15,
     "name":"MAGMARIZER",
     "price":2100,
     "description":"A box packed with a tremendous amount of magma energy. It's loved by a certain Pokémon.",
@@ -135,7 +135,7 @@
     "subcategory":"hold"
   },
   {
-    "id":15,
+    "id":16,
     "name":"PROTECTOR",
     "price":2100,
     "description":"A protective item of some sort. It is extremely stiff and heavy. It's loved by a certain Pokémon.",
@@ -144,7 +144,7 @@
     "subcategory":"hold"
   },
   {
-    "id":16,
+    "id":17,
     "name":"RAZOR CLAW",
     "price":2100,
     "description":"An item to be held by a Pokémon. When the holder successfully inflicts damage, the target may also flinch.",
@@ -153,7 +153,7 @@
     "subcategory":"hold"
   },
   {
-    "id":17,
+    "id":18,
     "name":"RAZOR FANG",
     "price":2100,
     "description":"A protective item of some sort. It is extremely stiff and heavy. It's loved by a certain Pokémon.",
@@ -162,7 +162,7 @@
     "subcategory":"hold"
   },
   {
-    "id":18,
+    "id":19,
     "name":"REAPER CLOTH",
     "price":2100,
     "description":"A cloth imbued with horrifyingly strong spiritual energy. It's loved by a certain Pokémon.",
@@ -171,7 +171,7 @@
     "subcategory":"hold"
   },
   {
-    "id":19,
+    "id":20,
     "name":"SACHET",
     "price":2100,
     "description":"A sachet filled with fragrant perfumes that are just slightly too overwhelming. Yet it's loved by a certain Pokémon.",
@@ -180,7 +180,7 @@
     "subcategory":""
   },
   {
-    "id":20,
+    "id":21,
     "name":"UP-GRADE",
     "price":2100,
     "description":"A transparent device somehow filled with all sorts of data. It was produced by Silph Co.",
@@ -189,7 +189,7 @@
     "subcategory":""
   },
   {
-    "id":21,
+    "id":22,
     "name":"WHIPPED DREAM",
     "price":2100,
     "description":"A soft and sweet treatmade of fluffy, puffy, whipped and whirled cream. It's loved by a certain Pokémon.",
@@ -197,7 +197,7 @@
     "category":"evolutionary",
     "subcategory":""
   },{
-    "id":22,
+    "id":23,
     "name":"ESCAPE ROPE",
     "price":550,
     "description":"A long and durable rope. Use it to escape instantly from a cave or a dungeon.",
@@ -206,7 +206,7 @@
     "subcategory":""
   },
   {
-    "id":23,
+    "id":24,
     "name":"FLUFFY TAIL",
     "price":1000,
     "description":"A toy that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.",
@@ -215,7 +215,7 @@
     "subcategory":""
   },
   {
-    "id":24,
+    "id":25,
     "name":"MAX REPEL",
     "price":700,
     "description":"An item that prevents any low-level wild Pokémon from jumping out at you for 250 steps after its use.",
@@ -224,7 +224,7 @@
     "subcategory":""
   },
   {
-    "id":25,
+    "id":26,
     "name":"POKÉ DOLL",
     "price":1000,
     "description":"A doll that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.",
@@ -233,7 +233,7 @@
     "subcategory":""
   },
   {
-    "id":26,
+    "id":27,
     "name":"POKÉ TOY",
     "price":500,
     "description":"A toy that attracts the attention of a Pokémon. It guarantees escape from any battle with wild Pokémon.",
@@ -242,7 +242,7 @@
     "subcategory":""
   },
   {
-    "id":27,
+    "id":28,
     "name":"REPEL",
     "price":350,
     "description":"An item that prevents any low-level wild Pokémon from jumping out at you for 100 steps after its use.",
@@ -251,7 +251,7 @@
     "subcategory":""
   },
   {
-    "id":28,
+    "id":29,
     "name":"SUPER REPEL",
     "price":500,
     "description":"An item that prevents any low-level wild Pokémon from jumping out at you for 200 steps after its use.",
@@ -260,7 +260,7 @@
     "subcategory":""
   },
   {
-    "id":29,
+    "id":30,
     "name":"ANTIDOTE",
     "price":100,
     "description":"A spray-type medicine for poisoning. It can be used once to lift the effects of being poisoned from a Pokémon.",
@@ -269,7 +269,7 @@
     "subcategory":""
   },
   {
-    "id":30,
+    "id":31,
     "name":"AWAKENING",
     "price":250,
     "description":"A spray-type medicine used against sleep. It can be used once to rouse a Pokémon from the clutches of sleep.",
@@ -278,7 +278,7 @@
     "subcategory":""
   },
   {
-    "id":31,
+    "id":32,
     "name":"BERRY JUICE",
     "price":100,
     "description":"A 100 percent pure juice made of Berries. When consumed, it restores 20 HP to an injured Pokémon.",
@@ -287,7 +287,7 @@
     "subcategory":""
   },
   {
-    "id":32,
+    "id":33,
     "name":"BURN HEAL",
     "price":250,
     "description":"A spray-type medicine for treating burns. It can be used once to heal a Pokémon suffering from a burn.",
@@ -296,7 +296,7 @@
     "subcategory":""
   },
   {
-    "id":33,
+    "id":34,
     "name":"ENERGY POWDER",
     "price":500,
     "description":"A bitter medicine powder. When consumed, it restores 50 HP to an injured Pokémon.",
@@ -305,7 +305,7 @@
     "subcategory":""
   },
   {
-    "id":34,
+    "id":35,
     "name":"ENERGY ROOT",
     "price":800,
     "description":"An extremely bitter medicinal root. When consumed, it restores 200 HP to an injured Pokémon.",
@@ -314,7 +314,7 @@
     "subcategory":""
   },
   {
-    "id":35,
+    "id":36,
     "name":"ETHER",
     "price":1200,
     "description":"This medicine can restore 10 PP to a single selected move that has been learned by a Pokémon.",
@@ -323,7 +323,7 @@
     "subcategory":""
   },
   {
-    "id":36,
+    "id":37,
     "name":"FRESH WATER",
     "price":200,
     "description":"Water with a high mineral content. When consumed, it restores 50 HP to an injured Pokémon.",
@@ -332,7 +332,7 @@
     "subcategory":""
   },
   {
-    "id":37,
+    "id":38,
     "name":"FULL HEAL",
     "price":600,
     "description":"A spray-type medicine that is broadly effective. It can be used once to heal all the status conditions of a Pokémon.",
@@ -341,7 +341,7 @@
     "subcategory":""
   },
   {
-    "id":38,
+    "id":39,
     "name":"FULL RESTORE",
     "price":3000,
     "description":"A medicine that can be used to fully restore the HP of a single Pokémon and heal any status conditions it has.",
@@ -350,7 +350,7 @@
     "subcategory":""
   },
   {
-    "id":39,
+    "id":40,
     "name":"HEAL POWDER",
     "price":450,
     "description":"A very bitter medicine powder. When consumed, it heals all of a Pokémon's status conditions.",
@@ -359,7 +359,7 @@
     "subcategory":""
   },
   {
-    "id":40,
+    "id":41,
     "name":"HYPER POTION",
     "price":1200,
     "description":"A spray-type medicine for treating wounds. It can be used to restore 200 HP to an injured Pokémon.",
@@ -368,7 +368,7 @@
     "subcategory":""
   },
   {
-    "id":41,
+    "id":42,
     "name":"ICE HEAL",
     "price":250,
     "description":"A spray-type medicine for freezing. It can be used once to defrost a Pokémon that has been frozen solid.",
@@ -377,7 +377,7 @@
     "subcategory":""
   },
   {
-    "id":42,
+    "id":43,
     "name":"LEMONADE",
     "price":350,
     "description":"A very sweet and refreshing drink. When consumed, it restores 80 HP to an injured Pokémon.",
@@ -386,7 +386,7 @@
     "subcategory":""
   },
   {
-    "id":43,
+    "id":44,
     "name":"MAX POTION",
     "price":2500,
     "description":"A spray-type medicine for treating wounds. It will completely restore the max HP of a single Pokémon.",
@@ -395,7 +395,7 @@
     "subcategory":""
   },
   {
-    "id":44,
+    "id":45,
     "name":"MAX REVIVE",
     "price":4000,
     "description":"A medicine that can revive fainted Pokémon. It also fully restores a fainted Pokémon's maximum HP.",
@@ -404,7 +404,7 @@
     "subcategory":""
   },
   {
-    "id":45,
+    "id":46,
     "name":"MOOMOO MILK",
     "price":500,
     "description":"A bottle of highly nutritious milk. When consumed, it restores 100 HP to an injured Pokémon.",
@@ -413,7 +413,7 @@
     "subcategory":""
   },
   {
-    "id":46,
+    "id":47,
     "name":"PARALYZE HEAL",
     "price":200,
     "description":"A spray-type medicine for paralysis. It can be used once to free a Pokémon that has been paralyzed.",
@@ -422,7 +422,7 @@
     "subcategory":""
   },
   {
-    "id":47,
+    "id":48,
     "name":"POTION",
     "price":300,
     "description":"A spray-type medicine for treating wounds. It can be used to restore 20 HP to an injured Pokémon.",
@@ -431,7 +431,7 @@
     "subcategory":""
   },
   {
-    "id":48,
+    "id":49,
     "name":"REVIVAL HERB",
     "price":2800,
     "description":"A terribly bitter medicinal herb. It revives a fainted Pokémon and fully restores its maximum HP.",
@@ -440,7 +440,7 @@
     "subcategory":""
   },
   {
-    "id":49,
+    "id":50,
     "name":"REVIVE",
     "price":1500,
     "description":"A medicine that can revive fainted Pokémon. It also restores half of a fainted Pokémon's maximum HP.",
@@ -449,7 +449,7 @@
     "subcategory":""
   },
   {
-    "id":50,
+    "id":51,
     "name":"SODA POP",
     "price":300,
     "description":"A highly carbonated soda drink. When consumed, it restores 60 HP to an injured Pokémon.",
@@ -458,7 +458,7 @@
     "subcategory":""
   },
   {
-    "id":51,
+    "id":52,
     "name":"SUPER POTION",
     "price":700,
     "description":"A spray-type medicine for treating wounds. It can be used to restore 50 HP to an injured Pokémon.",
@@ -466,9 +466,8 @@
     "category":"recovery",
     "subcategory":""
   },
-  
   {
-    "id":52,
+    "id":53,
     "name":"DIRE HIT",
     "price":650,
     "description":"An item that raises the critical-hit ratio greatly. It can be used only once and wears off if the Pokémon is withdrawn.",
@@ -477,7 +476,7 @@
     "subcategory":""
   },
   {
-    "id":53,
+    "id":54,
     "name":"GUARD SPEC",
     "price":700,
     "description":"An item that prevents stat reduction among the Trainer's party Pokémon for five turns after it is used in battle.",
@@ -486,7 +485,7 @@
     "subcategory":""
   },
   {
-    "id":54,
+    "id":55,
     "name":"X ACCURACY",
     "price":950,
     "description":"An item that boosts the accuracy of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
@@ -495,7 +494,7 @@
     "subcategory":""
   },
   {
-    "id":55,
+    "id":56,
     "name":"X ATTACK",
     "price":500,
     "description":"An item that boosts the Attack stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
@@ -504,7 +503,7 @@
     "subcategory":""
   },
   {
-    "id":56,
+    "id":57,
     "name":"X DEFENSE",
     "price":550,
     "description":"An item that boosts the Defense stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
@@ -513,7 +512,7 @@
     "subcategory":""
   },
   {
-    "id":57,
+    "id":58,
     "name":"X SP. ATK",
     "price":350,
     "description":"An item that boosts the Sp. Atk stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
@@ -522,7 +521,7 @@
     "subcategory":""
   },
   {
-    "id":58,
+    "id":59,
     "name":"X SP. DEF",
     "price":350,
     "description":"An item that boosts the Sp. Def stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
@@ -531,7 +530,7 @@
     "subcategory":""
   },
   {
-    "id":59,
+    "id":60,
     "name":"X SPEED",
     "price":350,
     "description":"An item that boosts the Speed stat of a Pokémon during a battle. It wears off once the Pokémon is withdrawn.",
@@ -540,7 +539,7 @@
     "subcategory":""
   },
   {
-    "id":60,
+    "id":61,
     "name":"ABSORB BULB",
     "price":200,
     "description":"An item to be held by a Pokémon. It boosts Sp. Atk if hit with a Water- type attack. It can only be used once.",
@@ -549,7 +548,7 @@
     "subcategory":""
   },
   {
-    "id":61,
+    "id":62,
     "name":"AIR BALLOON",
     "price":200,
     "description":"An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.",
@@ -558,7 +557,7 @@
     "subcategory":""
   },
   {
-    "id":62,
+    "id":63,
     "name":"ASSAULT VEST",
     "price":1000,
     "description":"An item to be held by a Pokémon. This offensive vest raises Sp. Def but prevents the use of status moves.",
@@ -567,7 +566,7 @@
     "subcategory":""
   },
   {
-    "id":63,
+    "id":64,
     "name":"BINDING BAND",
     "price":200,
     "description":"An item to be held by a Pokémon. A band that increases the power of binding moves used by the holder.",
@@ -576,7 +575,7 @@
     "subcategory":""
   },
   {
-    "id":64,
+    "id":65,
     "name":"BRIGHT POWDER",
     "price":10,
     "description":"An item to be held by a Pokémon. It casts a tricky glare that lowers the opposing Pokémon's accuracy.",
@@ -585,7 +584,7 @@
     "subcategory":""
   },
   {
-    "id":65,
+    "id":66,
     "name":"CELL BATTERY",
     "price":200,
     "description":"An item to be held by a Pokémon. It boosts Attack if hit with an Electric- type attack. It can only be used once.",
@@ -594,7 +593,7 @@
     "subcategory":""
   },
   {
-    "id":66,
+    "id":67,
     "name":"CHOICE BAND",
     "price":100,
     "description":"An item to be held by a Pokémon. This curious headband boosts Attack but only allows the use of one move.",
@@ -603,7 +602,7 @@
     "subcategory":""
   },
   {
-    "id":67,
+    "id":68,
     "name":"CHOICE SCARF",
     "price":200,
     "description":"An item to be held by a Pokémon. This curious scarf boosts Speed but only allows the use of one move.",
@@ -612,7 +611,7 @@
     "subcategory":""
   },
   {
-    "id":68,
+    "id":69,
     "name":"CHOICE SPECS",
     "price":200,
     "description":"An item to be held by a Pokémon. These curious glasses boost Sp. Atk but only allow the use of one move.",
@@ -621,7 +620,7 @@
     "subcategory":""
   },
   {
-    "id":69,
+    "id":70,
     "name":"EJECT BUTTON",
     "price":200,
     "description":"An item to be held by a Pokémon. If the holder is hit by an attack, it will be switched out of battle.",
@@ -630,7 +629,7 @@
     "subcategory":""
   },
   {
-    "id":70,
+    "id":71,
     "name":"EXPERT BELT",
     "price":200,
     "description":"An item to be held by a Pokémon. It's a well-worn belt that slightly boosts the power of supereffective moves.",
@@ -639,7 +638,7 @@
     "subcategory":""
   },
   {
-    "id":71,
+    "id":72,
     "name":"FLAME ORB",
     "price":100,
     "description":"An item to be held by a Pokémon. It is a bizarre orb that will afflict the holder with a burn during battle.",
@@ -648,7 +647,7 @@
     "subcategory":""
   },
   {
-    "id":72,
+    "id":73,
     "name":"FOCUS BAND",
     "price":200,
     "description":"An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
@@ -657,7 +656,7 @@
     "subcategory":""
   },
   {
-    "id":73,
+    "id":74,
     "name":"FULL INCENSE",
     "price":9600,
     "description":"An item to be held by a Pokémon. This exotic-smelling incense makes the holder bloated and slow moving.",
@@ -666,7 +665,7 @@
     "subcategory":""
   },
   {
-    "id":74,
+    "id":75,
     "name":"IRON BALL",
     "price":200,
     "description":"An item to be held by a Pokémon. It lowers Speed and allows Ground-type moves to hit Flying-type and levitating holders.",
@@ -675,7 +674,7 @@
     "subcategory":""
   },
   {
-    "id":75,
+    "id":76,
     "name":"LAX INCENSE",
     "price":9600,
     "description":"An item to be held by a Pokémon. The beguiling aroma of this incense may cause attacks to miss its holder.",
@@ -684,7 +683,7 @@
     "subcategory":""
   },
   {
-    "id":76,
+    "id":77,
     "name":"LIFE ORB",
     "price":200,
     "description":"An item to be held by a Pokémon. It boosts the power of moves, but at the cost of some HP on each hit.",
@@ -693,7 +692,7 @@
     "subcategory":""
   },
   {
-    "id":77,
+    "id":78,
     "name":"LUCK INCENSE",
     "price":200,
     "description":"An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.",
@@ -702,7 +701,7 @@
     "subcategory":""
   },
   {
-    "id":78,
+    "id":79,
     "name":"LUMINOUS MOSS",
     "price":200,
     "description":"An item to be held by a Pokémon. It doubles any prize money received if the holding Pokémon joins a battle.",
@@ -711,7 +710,7 @@
     "subcategory":""
   },
   {
-    "id":79,
+    "id":80,
     "name":"MUSCLE BAND",
     "price":200,
     "description":"An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of physical moves.",
@@ -720,7 +719,7 @@
     "subcategory":""
   },
   {
-    "id":80,
+    "id":81,
     "name":"POWER ANKLET",
     "price":3000,
     "description":"An item to be held by a Pokémon. It reduces Speed but allows the holder's Speed stat to grow more after battling.",
@@ -729,7 +728,7 @@
     "subcategory":""
   },
   {
-    "id":81,
+    "id":82,
     "name":"POWER BAND",
     "price":3000,
     "description":"An item to be held by a Pokémon. It reduces Speed but allows the holder's Sp. Def stat to grow more after battling.",
@@ -738,7 +737,7 @@
     "subcategory":""
   },
   {
-    "id":82,
+    "id":83,
     "name":"POWER BELT",
     "price":3000,
     "description":"An item to be held by a Pokémon. It reduces Speed but allows the holder's Defense stat to grow more after battling.",
@@ -747,7 +746,7 @@
     "subcategory":""
   },
   {
-    "id":83,
+    "id":84,
     "name":"POWER BRACER",
     "price":3000,
     "description":"An item to be held by a Pokémon. It reduces Speed but allows the holder's Attack stat to grow more after battling.",
@@ -756,7 +755,7 @@
     "subcategory":""
   },
   {
-    "id":84,
+    "id":85,
     "name":"POWER HERB",
     "price":100,
     "description":"A single-use item to be held by a Pokémon. It allows the holder to immediately use a move that normally requires a turn to charge.",
@@ -765,7 +764,7 @@
     "subcategory":""
   },
   {
-    "id":85,
+    "id":86,
     "name":"POWER LENS",
     "price":3000,
     "description":"An item to be held by a Pokémon. It reduces Speed but allows the holder's Sp. Atk stat to grow more after battling.",
@@ -774,7 +773,7 @@
     "subcategory":""
   },
   {
-    "id":86,
+    "id":87,
     "name":"POWER WEIGHT",
     "price":3000,
     "description":	"An item to be held by a Pokémon. It reduces Speed but allows the holder's maximum HP to grow more after battling.",
@@ -783,7 +782,7 @@
     "subcategory":""
   },
   {
-    "id":87,
+    "id":88,
     "name":"PURE INCENSE",
     "price":9600,
     "description":"An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the head of the party.",
@@ -792,7 +791,7 @@
     "subcategory":""
   },
   {
-    "id":88,
+    "id":89,
     "name":"RING TARGET",
     "price":100,
     "description":"An item to be held by a Pokémon. Moves that normally have no effect will land on a Pokémon holding it.",
@@ -801,7 +800,7 @@
     "subcategory":""
   },
   {
-    "id":89,
+    "id":90,
     "name":"ROCK INCENSE",
     "price":9600,
     "description":"An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Rock-type moves.",
@@ -810,7 +809,7 @@
     "subcategory":""
   },
   {
-    "id":90,
+    "id":91,
     "name":"ROSE INCENSE",
     "price":9600,
     "description":"An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Grass-type moves.",
@@ -819,7 +818,7 @@
     "subcategory":""
   },
   {
-    "id":91,
+    "id":92,
     "name":"SAFETY GOGGLES",
     "price":1000,
     "description":"An item to be held by a Pokémon. These goggles protect the holder from both weather-related damage and powder.",
@@ -828,7 +827,7 @@
     "subcategory":""
   },
   {
-    "id":92,
+    "id":93,
     "name":"SCOPE LENS",
     "price":200,
     "description":"An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
@@ -837,7 +836,7 @@
     "subcategory":""
   },
   {
-    "id":93,
+    "id":94,
     "name":"SEA INCENSE",
     "price":1000,
     "description":"An item to be held by a Pokémon. This incense has a curious aroma that boosts the power of Water-type moves.",
@@ -846,7 +845,7 @@
     "subcategory":""
   },
   {
-    "id":94,
+    "id":95,
     "name":"SNOW BALL",
     "price":200,
     "description":"An item to be held by a Pokémon. It boosts Attack if hit with an Ice-type attack. It can only be used once.",
@@ -855,7 +854,7 @@
     "subcategory":""
   },
   {
-    "id":95,
+    "id":96,
     "name":"TOXIC ORB",
     "price":100,
     "description":"An item to be held by a Pokémon. It is a bizarre orb that will badly poison the holder during battle.",
@@ -864,7 +863,7 @@
     "subcategory":""
   },
   {
-    "id":96,
+    "id":97,
     "name":"WAVE INCENSE",
     "price":9600,
     "description":"An item to be held by a Pokémon. This exotic-smelling incense boosts the power of Water-type moves.",
@@ -873,7 +872,7 @@
     "subcategory":""
   },
   {
-    "id":97,
+    "id":98,
     "name":"WEAKNESS POLICY",
     "price":1000,
     "description":"An item to be held by a Pokémon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
@@ -882,7 +881,7 @@
     "subcategory":""
   },
   {
-    "id":98,
+    "id":99,
     "name":"WHITE HERB",
     "price":100,
     "description":"An item to be held by a Pokémon. It will restore any lowered stat in battle. It can be used only once.",
@@ -891,7 +890,7 @@
     "subcategory":""
   },
   {
-    "id":99,
+    "id":100,
     "name":"WIDE LENS",
     "price":200,
     "description":"An item to be held by a Pokémon. It's a magnifying lens that slightly boosts the accuracy of moves.",
@@ -900,7 +899,7 @@
     "subcategory":""
   },
   {
-    "id":100,
+    "id":101,
     "name":"WISE GLASSES",
     "price":200,
     "description":"An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of special moves.",
@@ -909,7 +908,7 @@
     "subcategory":""
   },
   {
-    "id":101,
+    "id":102,
     "name":"ZOOM LENS",
     "price":200,
     "description":"An item to be held by a Pokémon. If the holder moves after its target moves, its accuracy will be boosted.",
