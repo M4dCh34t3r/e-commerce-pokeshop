@@ -1,20 +1,34 @@
+import addItemById from "../../services/utils/addItemToCart";
 import Section from "../../components/section/Section";
 import shopItems from "../../data/json/shopItems.json";
 import Cart from "../../components/cart/Cart";
-import { shopItemsId } from "../../App";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function Home() {
-  const [cartItemCount, setCartItemCount] = useState(shopItemsId.length);
+  const [cartItemCount, setCartItemCount] = useState(0);
+
+  useEffect(() =>  {
+    const url: string = 'http://localhost:5000/cart-items';
+    const fetchData = async () => {
+      try {
+        let response = await fetch(url);
+
+        if (response.status === 200) {
+          console.log("Data successfully fetched from ", url);
+          let data = await response.json();
+          setCartItemCount(data.length);
+          return;
+        }
+      } catch(e: any) {
+        console.log(e);
+      }
+    }
+    fetchData();
+  });
 
   const handleCartClick = (itemId: number) => {
-    if (shopItemsId.length === 9) {
-      alert("Your cart is already full of items");
-      return;
-    }
-
-    shopItemsId.push(itemId);
-    setCartItemCount(shopItemsId.length);
+    addItemById(itemId);
+    setCartItemCount(cartItemCount + 1);
   }
 
   return(

@@ -1,60 +1,78 @@
+import addItemToCart from "../../services/utils/addItemToCart";
+import Products from "../../components/products/Products";
 import shopItems from "../../data/json/shopItems.json";
+import { CartItem } from "../../data/@types/cartItem";
 import { ShopItem } from "../../data/@types/shopItem";
-import { shopItemsId } from "../../App";
-import { useState } from "react";
-
-let uniqueItems: ShopItem[] = [];
-
-function addOneById(itemId: number) {
-  shopItemsId.push(itemId);
-}
-
-function calculateCartValue(): number {
-  let currentValue: number = 0;
-  for (let i = 0; i < shopItemsId.length; i++) {
-    let matchingItems: ShopItem[] = shopItems.filter(element => element.id === shopItemsId[i] );
-    currentValue += matchingItems[0].price;
-  }
-  return currentValue;
-}
-
-function removeOneById(itemId: number) {
-  let firstItemFound: number = shopItemsId.findIndex(p => p === itemId);
-  shopItemsId.splice(firstItemFound, 1);
-}
+import { useState, useEffect } from "react";
 
 export function CartContent() {
-  const [cartValue, setCartValue] = useState(calculateCartValue());
+  const [cartContent, setCartContent] = useState(Array<CartItem>);
+  const [matchingItems, setMatchingItems] = useState(Array<ShopItem>);
+  const url: string = 'http://localhost:5000/cart-items';
+  
+  useEffect(() =>  {
+    const fetchData = async () => {
+      try {
+        let response = await fetch(url);
 
-  const uniqueIds: number[] = [];
-  uniqueItems = shopItems.filter(element => {
-    const isItemInCart: boolean = shopItemsId.includes(element.id);
-
-    if (isItemInCart) {
-      uniqueIds.push(element.id);
-      return true;
+        if (response.status === 200) {
+          console.log("Data successfully fetched from ", url);
+          let data = await response.json();
+          updateMatchingItems();
+          setCartContent(data);
+          return;
+        }
+      } catch(e: any) {
+        console.log(e);
+      }
     }
-    return false;
+    fetchData();
   });
+  
+  function calculateCartValue(): number {
+    let currentValue: number = 0;
+    for (let i = 0; i < matchingItems.length; i++) {
+      currentValue += matchingItems[i].price;
+    }
+    return currentValue;
+  }
+
+  function removeOneById(itemId: number) {
+    let matchingItem: number = cartContent.findIndex(item => item.shopItemId === itemId);
+    let matchingItemId: Number = cartContent[matchingItem].id;
+
+    if (matchingItemId) {
+      let postBody = {
+        id: matchingItemId,
+      }
+  
+      const fetchData = async () => {
+        try {
+          await fetch(url,
+            { method: 'DELETE',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(postBody) });
+        } catch(e: any) {
+          console.log(e);
+        }
+      }
+      fetchData();
+    }
+  }
+
+  function updateMatchingItems() {
+    let matchingContent: ShopItem[] = [];
+    for (let i = 0; i < cartContent.length; i++) {
+      matchingContent.push(shopItems.filter(shopItem => shopItem.id === cartContent[i].shopItemId)[0]);
+    }
+    setMatchingItems(matchingContent);
+  }
 
   return(
-    <>
-      { uniqueItems.map(uniqueItem => (
-        <>
-          <button onClick={ () => {
-            removeOneById(uniqueItem.id)
-            setCartValue(calculateCartValue()) }}>remove item</button>
-          <button onClick={ () => {
-            addOneById(uniqueItem.id)
-            setCartValue(calculateCartValue()) }}>add item</button>
-          <h1>
-            { uniqueItem.name }
-          </h1>
-        </>
-      )) }
-      <h1>
-        { "The value is " + cartValue }
-      </h1>
-    </>
+    <Products 
+      cartPrice={ calculateCartValue() }
+      shopItems={ matchingItems }
+      addItemHandler={ addItemToCart }
+      removeItemHander={ removeOneById } />
   );
 }
