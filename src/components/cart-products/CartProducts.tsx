@@ -2,10 +2,10 @@ import { AddButton, RemoveButton, ProductCard, ProductImage, ProductsWrapper, To
 import { ShopItem } from "../../data/@types/shopItem";
 
 interface CartProductsProps {
-  cartPrice: number,
-  shopItems: ShopItem[],
-  addItemHandler: Function,
-  removeItemHander: Function
+  cartPrice: number;
+  shopItems: ShopItem[];
+  removeItemHander: Function;
+  addItemHandler: Function;
 }
 
 export default function CartProducts(props: CartProductsProps) {
