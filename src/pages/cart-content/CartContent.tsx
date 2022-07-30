@@ -1,3 +1,4 @@
+import CartWarning from "../../components/cart-warning/CartWarning";
 import addItemToCart from "../../services/utils/addItemToCart";
 import Products from "../../components/products/Products";
 import shopItems from "../../data/json/shopItems.json";
@@ -68,11 +69,20 @@ export function CartContent() {
     setMatchingItems(matchingContent);
   }
 
+  if (matchingItems.length) {
+    return(
+      <Products 
+        cartPrice={ calculateCartValue() }
+        shopItems={ matchingItems }
+        addItemHandler={ addItemToCart }
+        removeItemHander={ removeOneById } />
+    );
+  }
+
   return(
-    <Products 
-      cartPrice={ calculateCartValue() }
-      shopItems={ matchingItems }
-      addItemHandler={ addItemToCart }
-      removeItemHander={ removeOneById } />
+    <CartWarning 
+      redirectPageTo="/"
+      redirectMessage="Choose your items here!"
+      warningMessage="Your cart is empty..." />
   );
 }
