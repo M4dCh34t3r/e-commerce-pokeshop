@@ -29,7 +29,7 @@ export const CartLink = styled(Link)`
 
   &:hover {
     ${ CartIcon } {
-      filter: brightness(94%);
+      filter: brightness(90%);
     }
     ${ CartCount } {
       color: #cc1424;

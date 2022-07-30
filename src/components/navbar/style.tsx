@@ -19,7 +19,7 @@ export const NavbarLink = styled(Link)`
 
   &:hover {
     color: #f2b542;
-    background-color: #f0f0f0;
+    background-color: #e6e6e6;
   }
 `;
 

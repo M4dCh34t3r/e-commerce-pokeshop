@@ -11,7 +11,7 @@ export const EntryButton = styled('button')`
 
   &:hover {
     color: #d78c42;
-    background-color: #f0f0f0;
+    background-color: #e6e6e6;
   }
 `;
 

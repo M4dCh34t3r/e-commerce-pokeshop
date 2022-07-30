@@ -29,6 +29,7 @@ export const CardButton = styled('button')`
   background-color: #60c0ef;
 
   &:hover {
+    color: #e6e6e6;
     background-color: #268cbf;
   }
 `;

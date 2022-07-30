@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const WarningLink = styled(Link)`
   height: 2rem;
-  min-width: 12.5%;
   color: #eb2848;
   font-weight: bold;
   line-height: 2rem;
@@ -14,7 +13,7 @@ export const WarningLink = styled(Link)`
 
   &:hover {
     color: #cc1424;
-    background-color: #f0f0f0;
+    background-color: #e6e6e6;
   }
 `;
 
