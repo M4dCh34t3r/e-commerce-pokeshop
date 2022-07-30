@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const WarningLink = styled(Link)`
-  width: 12.5%;
   height: 2rem;
+  min-width: 12.5%;
   color: #eb2848;
   font-weight: bold;
   line-height: 2rem;
