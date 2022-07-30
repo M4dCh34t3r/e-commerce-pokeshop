@@ -1,4 +1,4 @@
-import { AddButton, RemoveButton, ProductCard, ProductImage, ProductsWrapper, TotalPrice } from "./style";
+import { AddButton, RemoveButton, ProductCard, ProductImage, ProductsWrapper, TotalPrice, ProductPrice } from "./style";
 import { ShopItem } from "../../data/@types/shopItem";
 
 interface CartProductsProps {
@@ -14,6 +14,8 @@ export default function CartProducts(props: CartProductsProps) {
       { props.shopItems.map(shopItem => (
         <ProductCard>
       
+        <ProductPrice> { shopItem.price }₽ </ProductPrice>
+
         <RemoveButton 
           onClick={ () => props.removeItemHander(shopItem.id) }> - </RemoveButton>
 
