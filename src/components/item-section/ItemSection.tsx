@@ -1,5 +1,5 @@
 
-import { CardButton, Card, CardName, CardImage, CardPrice, Tooltip, SectionName, Wrapper} from './style';
+import { CardButton, Card, CardName, CardImage, CardPrice, CardsWrapper, ItemTooltip, SectionName } from './style';
 import { ShopItem } from '../../data/@types/shopItem';
 
 interface SectionProps {
@@ -12,13 +12,13 @@ export default function Section(props: SectionProps) {
   return(
     <>
       <SectionName> { props.sectionName } </SectionName>
-      <Wrapper>
+      <CardsWrapper>
         { props.shopItems.map(shopItem => (
           <Card key={ shopItem.id }>
             
-            <Tooltip> { shopItem.description } </Tooltip> 
+            <ItemTooltip> { shopItem.description } </ItemTooltip> 
             
-            <CardImage src={ shopItem.image} alt={ shopItem.name }/>
+            <CardImage src={ shopItem.image} alt={ shopItem.name } />
 
             <CardName> { shopItem.name } </CardName>
             
@@ -27,7 +27,7 @@ export default function Section(props: SectionProps) {
             <CardButton onClick={ () => props.clickHandler(shopItem.id) }> Add to cart </CardButton>
           </Card>
         )) }
-      </Wrapper>
+      </CardsWrapper>
     </>
   );
 }

@@ -1,21 +1,4 @@
-
 import styled from "styled-components";
-
-export const Tooltip = styled('div')`
-  opacity: 0%;
-  width: 20rem;
-  color: #ffffff;
-  border-radius: 5px;
-  position: absolute;
-  text-align: center;
-  margin-bottom: 20rem;
-  background-color: #eb2848;
-  transition: all 1s ease-in-out;
-
-  &:hover {
-    opacity: 100%;
-  }
-`
 
 export const Card = styled('li')`
   width: 12rem;
@@ -78,6 +61,28 @@ export const CardPrice = styled('h3')`
   height: 2rem;
 `;
 
+export const CardsWrapper = styled('div')`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+export const ItemTooltip = styled('div')`
+  opacity: 0%;
+  width: 20rem;
+  color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 20rem;
+  background-color: #eb2848;
+  transition: all 1s ease-in-out;
+
+  &:hover {
+    opacity: 100%;
+  }
+`
+
 export const SectionName = styled('h1')`
   height: 4rem;
   margin: 2rem;
@@ -88,10 +93,4 @@ export const SectionName = styled('h1')`
   border-radius: 5px;
   text-align: center;
   background-color: #f2b542;
-`;
-
-export const Wrapper = styled('div')`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 `;
