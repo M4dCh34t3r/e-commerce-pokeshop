@@ -1,14 +1,14 @@
 import { AddButton, RemoveButton, ProductCard, ProductImage, ProductsWrapper, TotalPrice } from "./style";
 import { ShopItem } from "../../data/@types/shopItem";
 
-interface CartProps {
+interface CartProductsProps {
   cartPrice: number,
   shopItems: ShopItem[],
   addItemHandler: Function,
   removeItemHander: Function
 }
 
-export default function Products(props: CartProps) {
+export default function CartProducts(props: CartProductsProps) {
   return(
     <ProductsWrapper>
       { props.shopItems.map(shopItem => (

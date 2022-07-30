@@ -1,6 +1,6 @@
+import ReviewMessages from '../../components/review-messages/ReviewMessages';
 import { ClientReview } from '../../data/@types/clientReview';
-import Messages from '../../components/messages/Messages';
-import Entry from '../../components/entry/Entry';
+import Entry from '../../components/review-entry/Entry';
 import { useState, useEffect } from 'react';
 
 export function Reviews() {
@@ -77,7 +77,7 @@ export function Reviews() {
         clickHandler={ sendReview }
         nameHandler={ updateAuthor }
         messageHandler={ updateMessage } />
-      <Messages clientReviews={ content } />
+      <ReviewMessages clientReviews={ content } />
     </>
   );
 }

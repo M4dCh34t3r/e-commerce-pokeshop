@@ -5,7 +5,7 @@ interface EntryProps {
   messageHandler: Function;
   nameHandler: Function;
 }
-export default function Entry(props: EntryProps) {
+export default function ReviewEntry(props: EntryProps) {
   return(
     <EntryWrapper>
       <EntryLabel>REVIEW AUTHOR</EntryLabel>

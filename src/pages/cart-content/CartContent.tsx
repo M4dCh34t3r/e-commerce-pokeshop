@@ -1,6 +1,6 @@
 import CartWarning from "../../components/cart-warning/CartWarning";
+import Products from "../../components/cart-products/CartProducts";
 import addItemToCart from "../../services/utils/addItemToCart";
-import Products from "../../components/products/Products";
 import shopItems from "../../data/json/shopItems.json";
 import { CartItem } from "../../data/@types/cartItem";
 import { ShopItem } from "../../data/@types/shopItem";

@@ -1,5 +1,5 @@
+import Section from "../../components/item-section/ItemSection";
 import addItemById from "../../services/utils/addItemToCart";
-import Section from "../../components/section/Section";
 import shopItems from "../../data/json/shopItems.json";
 import Cart from "../../components/cart/Cart";
 import { useState, useEffect } from "react";

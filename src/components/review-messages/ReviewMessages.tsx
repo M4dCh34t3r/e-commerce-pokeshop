@@ -2,11 +2,11 @@ import { CardWrapper, MessageAuthor, MessageCard, MessageDate,MessageText } from
 import { ClientReview } from "../../data/@types/clientReview";
 import formatDate from "../../services/utils/formatDate";
 
-interface MessageProps {
+interface ReviewMessageProps {
   clientReviews: ClientReview[];
 }
 
-export default function Messages(props: MessageProps) {
+export default function ReviewMessages(props: ReviewMessageProps) {
   console.log(props.clientReviews[0]);
   return(
     <CardWrapper>
