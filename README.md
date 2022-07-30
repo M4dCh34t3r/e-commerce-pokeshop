@@ -7,3 +7,7 @@ The _front-end_ side of things was developed using React and its styled componen
 
 ## How did you get the these images?
 The project logo and icons were created by the author, all the item images and their respective descriptions can be acquired at [serebii.net.](https://www.serebii.net/omegarubyalphasapphire/items.shtml)
+
+## How can I run the project?
+- First you have to install the project dependencies. You can use "npm install".
+- After installing the dependencies, you can use "npm start" and run the aplication.
