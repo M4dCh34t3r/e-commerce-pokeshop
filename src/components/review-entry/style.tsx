@@ -26,6 +26,7 @@ export const EntryWrapper = styled('div')`
   width: 87.5%;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2rem;
   min-height: 4rem;
   border-radius: 5px;
   align-items: center;
