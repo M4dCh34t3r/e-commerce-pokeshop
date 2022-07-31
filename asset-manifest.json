@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/e-commerce-pokeshop/static/js/main.058f926d.js",
+    "main.js": "/e-commerce-pokeshop/static/js/main.d9a9135f.js",
     "index.html": "/e-commerce-pokeshop/index.html",
-    "main.058f926d.js.map": "/e-commerce-pokeshop/static/js/main.058f926d.js.map"
+    "main.d9a9135f.js.map": "/e-commerce-pokeshop/static/js/main.d9a9135f.js.map"
   },
   "entrypoints": [
-    "static/js/main.058f926d.js"
+    "static/js/main.d9a9135f.js"
   ]
 }
