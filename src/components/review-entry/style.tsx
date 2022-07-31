@@ -3,11 +3,16 @@ import styled from "styled-components";
 export const EntryButton = styled('button')`
   border: none;
   height: 2rem;
+  margin: 0.5rem;
   color: #f2b542;
   font-weight: bold;
   border-radius: 5px;
   transition: all 0.25s ease;
   background-color: #ffffff;
+
+  @media(max-width: 800px) {
+    width: 50%;
+  }
 
   &:hover {
     color: #d78c42;
@@ -16,6 +21,7 @@ export const EntryButton = styled('button')`
 `;
 
 export const EntryLabel = styled('label')`
+  margin: 0.5rem;
   color: #ffffff;
   font-weight: bold;
   font-size: 1.25rem;
@@ -32,15 +38,27 @@ export const EntryWrapper = styled('div')`
   align-items: center;
   background-color: #f2b542;
   justify-content: space-evenly;
+
+  @media(max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 export const MessageInput = styled('input')`
   width: 50%;
   border: none;
+  height: 1.5rem;
+  margin: 0.5rem;
   border-radius: 5px;
+  
+  @media(max-width: 800px) {
+    width: 75%;
+  }
 `;
 
 export const NameInput = styled('input')`
   border: none;
+  height: 1.5rem;
+  margin: 0.5rem;
   border-radius: 5px;
 `;
