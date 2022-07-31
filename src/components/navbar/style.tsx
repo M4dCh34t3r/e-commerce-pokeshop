@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavbarLink = styled(Link)`
+  z-index: 500;
   min-width: 8rem;
   min-height: 2rem;
   color: #ffd841;
@@ -28,8 +29,8 @@ export const NavbarLogo = styled('img')`
   height: 25rem;
 
   @media(max-width: 800px) {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     position: absolute;
     margin-bottom: 2rem;
   }
