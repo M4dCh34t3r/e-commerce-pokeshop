@@ -47,7 +47,6 @@ export const EntryWrapper = styled('div')`
 export const MessageInput = styled('input')`
   width: 50%;
   border: none;
-  z-index: 1500;
   height: 1.5rem;
   margin: 0.5rem;
   border-radius: 5px;

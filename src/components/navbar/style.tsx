@@ -26,11 +26,9 @@ export const NavbarLink = styled(Link)`
 
 export const NavbarLogo = styled('img')`
   width: 25rem;
-  height: 25rem;
 
   @media(max-width: 800px) {
     width: 18rem;
-    height: 18rem;
     position: absolute;
     margin-bottom: 2rem;
   }

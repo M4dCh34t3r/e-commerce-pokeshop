@@ -36,12 +36,10 @@ export const CardButton = styled('button')`
 
 export const CardImage = styled('img')`
   width: 6rem;
-  height: 6rem;
   transition: all 0.25s ease-in-out;
 
   &:hover {
     width: 8rem;
-    height: 8rem;
     margin-top: -1rem;
     margin-bottom: -1rem;
   }

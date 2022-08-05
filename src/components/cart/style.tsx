@@ -1,9 +1,8 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { Link } from "react-router-dom"
 
 export const CartIcon = styled('img')`
   width: 5em;
-  height: 5em;
 `;
 
 export const CartCount = styled('h1')`

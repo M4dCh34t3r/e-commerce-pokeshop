@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const AddButton = styled('button')`
   width: 2rem;
-  height: 2rem;
   border: none;
   font-size: 2rem;
   margin-top: 4rem;
@@ -19,7 +18,6 @@ export const AddButton = styled('button')`
 
 export const RemoveButton = styled('button')`
   width: 2rem;
-  height: 2rem;
   border: none;
   font-size: 2rem;
   margin-top: 4rem;
