@@ -58,7 +58,6 @@ export const MessageInput = styled('input')`
 
 export const NameInput = styled('input')`
   border: none;
-  z-index: 1500;
   height: 1.5rem;
   margin: 0.5rem;
   border-radius: 5px;
