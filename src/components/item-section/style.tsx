@@ -70,14 +70,14 @@ export const CardsWrapper = styled('div')`
 
 export const ItemTooltip = styled('div')`
   opacity: 0%;
-  width: 20rem;
+  width: 18rem;
   color: #ffffff;
   border-radius: 5px;
   position: absolute;
   text-align: center;
   margin-bottom: 20rem;
   background-color: #eb2848;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
   &:hover {
     opacity: 100%;
