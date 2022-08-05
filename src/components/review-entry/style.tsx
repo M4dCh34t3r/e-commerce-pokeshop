@@ -25,13 +25,13 @@ export const EntryLabel = styled('label')`
   color: #ffffff;
   font-weight: bold;
   font-size: 1.25rem;
+  text-align: center;
 `;
 
 export const EntryWrapper = styled('div')`
   margin: auto;
   width: 87.5%;
   display: flex;
-  flex-wrap: wrap;
   margin-top: 2rem;
   min-height: 4rem;
   border-radius: 5px;
@@ -47,6 +47,7 @@ export const EntryWrapper = styled('div')`
 export const MessageInput = styled('input')`
   width: 50%;
   border: none;
+  z-index: 1500;
   height: 1.5rem;
   margin: 0.5rem;
   border-radius: 5px;
@@ -58,6 +59,7 @@ export const MessageInput = styled('input')`
 
 export const NameInput = styled('input')`
   border: none;
+  z-index: 1500;
   height: 1.5rem;
   margin: 0.5rem;
   border-radius: 5px;
